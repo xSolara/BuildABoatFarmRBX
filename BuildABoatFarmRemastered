@@ -26,7 +26,7 @@ EndCFrame = CFrame.new(-57.3810005, -351.709045, 9493.25195, -0.998030305, 0.043
 local plr = game.Players.LocalPlayer
 local character = plr.Character
 local rootpart = character:FindFirstChild("HumanoidRootPart")
-
+wait(0.1)
 local Velocity = Instance.new("BodyVelocity")
 Velocity.Parent = rootpart
 Velocity.MaxForce = Vector3.new(10000000000000000,100000000000000,1000000000000000)
