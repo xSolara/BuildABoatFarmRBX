@@ -20,6 +20,7 @@ wait(0.6)
 rootpart.CFrame = EndCFrame
 
 while wait(1) do
+wait(1)
 StartCFrame = CFrame.new(-73.3445816, 89.9388123, 1299.29932, -0.999390721, 0.0023808917, -0.0348219238, -8.32706704e-09, 0.99767071, 0.0682143345, 0.0349032208, 0.0681727678, -0.997062802)
 EndCFrame = CFrame.new(-57.3810005, -351.709045, 9493.25195, -0.998030305, 0.0437950119, -0.044916749, -9.23750465e-10, 0.715990722, 0.698109806, 0.0627337024, 0.696734726, -0.714580417)
 local plr = game.Players.LocalPlayer
@@ -37,5 +38,7 @@ Velocity:Remove()
 wait(1)
 rootpart.CFrame = EndCFrame
 wait(0.6)
+rootpart.CFrame = EndCFrame
+wait(0.4)
 rootpart.CFrame = EndCFrame
 end
