@@ -20,7 +20,7 @@ rootpart.CFrame = EndCFrame
 wait(0.6)
 rootpart.CFrame = EndCFrame
 
-while wait(16) do
+while wait(3) do
 
 wait(0.1)
 StartCFrame = CFrame.new(-73.3445816, 89.9388123, 1299.29932, -0.999390721, 0.0023808917, -0.0348219238, -8.32706704e-09, 0.99767071, 0.0682143345, 0.0349032208, 0.0681727678, -0.997062802)
@@ -29,19 +29,20 @@ local plr = game.Players.LocalPlayer
 local character = plr.Character
 local rootpart = character:FindFirstChild("HumanoidRootPart")
 rootpart.CFrame = StartCFrame
-wait(0.05)
+wait(0.1)
+rootpart.CFrame = StartCFrame
 local Velocity = Instance.new("BodyVelocity")
 Velocity.Parent = rootpart
 Velocity.MaxForce = Vector3.new(10000000000000000,100000000000000,1000000000000000)
 Velocity.Velocity = Vector3.new(0,0,600)
 
-wait(13)
+wait(11)
 
 Velocity:Remove()
 wait(1)
 rootpart.CFrame = EndCFrame
 wait(0.6)
 rootpart.CFrame = EndCFrame
-wait(0.5)
+
 
 end
