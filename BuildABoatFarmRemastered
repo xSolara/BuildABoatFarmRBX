@@ -42,5 +42,6 @@ wait(1)
 rootpart.CFrame = EndCFrame
 wait(0.6)
 rootpart.CFrame = EndCFrame
+wait(0.5)
 
 end
