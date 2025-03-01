@@ -15,12 +15,13 @@ Velocity.Parent = rootpart
 Velocity.MaxForce = Vector3.new(10000000000000000,100000000000000,1000000000000000)
 Velocity.Velocity = Vector3.new(0,0,600)
 rootpart.CFrame = StartCFrame
-wait(12)
+wait(14)
 
 Velocity:Remove()
-wait(0.6)
+wait(0.1)
 rootpart.CFrame = EndCFrame
 wait(0.6)
 rootpart.CFrame = EndCFrame
+wait(10)
 
 end
