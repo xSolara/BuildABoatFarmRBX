@@ -5,7 +5,9 @@ local plr = game.Players.LocalPlayer
 
 while wait(1) do
 local character = plr.Character or plr.CharacterAdded:wait()
+if character then
 local rootpart = character:FindFirstChild("HumanoidRootPart")
+if rootpart then
 
 
 
@@ -22,6 +24,7 @@ wait(0.1)
 rootpart.CFrame = EndCFrame
 wait(0.6)
 rootpart.CFrame = EndCFrame
-wait(10)
 
+end
+end
 end
